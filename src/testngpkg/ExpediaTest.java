@@ -34,7 +34,7 @@ public class ExpediaTest {
   }
   @Test
   public void expedia() {
-    driver.get("https://www.expedia.com/");
+    driver.get("https://www.expedia.co.in");
     driver.findElement(By.xpath("//li[2]/a/span")).click();
     //driver.findElement(By.cssSelector("#location-field-leg1-origin-menu .uitk-fake-input")).click();
     driver.findElement(By.xpath("//input[@id=\'location-field-leg1-origin\']")).sendKeys("Brussels",Keys.ENTER);

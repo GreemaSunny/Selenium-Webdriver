@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngpkg.ExpediaTest">
+      <class name="pkg.Titleverification">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="expedia"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- testngpkg.ExpediaTest -->
+      </class> <!-- pkg.Titleverification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
